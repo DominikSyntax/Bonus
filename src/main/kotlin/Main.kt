@@ -14,6 +14,11 @@ fun main() {
     var height=readln().toDouble()
 
     var bmi=weight / (height+height)
-    println("Dein BMI ist $bmi")
+
+    if(bmi>=25)
+        println("Dein BMI ist $bmi, das ist zuviel Junge")
+    else
+        println("Dein BMI int mit $bmi im normalen Bereich")
+
 
 }
