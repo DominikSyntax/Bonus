@@ -16,6 +16,7 @@ fun main(){
 
     var list= listOf(numberone,numbertwo,numberthree)
 
+    //var maxNumber= max()
     var maxNumber= maxOf(numberone,numbertwo,numberthree)
 
     println("Die höchste Nummer ist $maxNumber")
